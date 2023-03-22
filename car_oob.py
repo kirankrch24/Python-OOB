@@ -1,4 +1,6 @@
 class Car:
+
+
     # The constructor (initializer) method
     def __init__(self, make, model, year, color):
         self.make = make
@@ -6,6 +8,8 @@ class Car:
         self.year = year
         self.color = color
         self.speed = 0
+
+        
 
     # A method to accelerate the car
     def accelerate(self, amount):
