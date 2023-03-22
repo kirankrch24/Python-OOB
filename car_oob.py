@@ -25,7 +25,7 @@ class Car:
 
 # Create a Car object (instance)
 my_car = Car("Tesla", "Model S", 2022, "Red")
-my_h_c = Car("Hyundia","i10",2016,'White')
+
 
 # Accelerate the car
 my_car.accelerate(50)
@@ -35,4 +35,3 @@ my_car.brake(20)
 
 # Display the car's information
 my_car.display_info()
-my_h_c.display_info()
