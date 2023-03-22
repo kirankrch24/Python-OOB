@@ -1,6 +1,5 @@
 class Car:
 
-
     # The constructor (initializer) method
     def __init__(self, make, model, year, color):
         self.make = make
@@ -9,23 +8,23 @@ class Car:
         self.color = color
         self.speed = 0
 
-        
-
-    # A method to accelerate the car
+    # A function of acceleration
     def accelerate(self, amount):
         self.speed += amount
         return self.speed
 
-    # A method to brake the car
+    # A function of breake
     def brake(self, amount):
         self.speed -= amount
         if self.speed < 0:
             self.speed = 0
         return self.speed
 
-    # A method to display the car's information
+    # A function for printing
     def display_info(self):
         print(f"{self.color} {self.year} {self.make} {self.model} - Speed: {self.speed} km/h")
+
+
 
 # Create a Car object (instance)
 my_car = Car("Tesla", "Model S", 2022, "Red")
